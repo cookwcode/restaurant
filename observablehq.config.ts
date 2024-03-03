@@ -6,9 +6,9 @@ export default {
       name: "Framework demo pages",
       open: false,
       pages: [
-        {name: "Index", path: "/index-demo"},
-        {name: "Dashboard", path: "/example-dashboard"},
-        {name: "Report", path: "/example-report"},
+        {name: "Index", path: "demo/index"},
+        {name: "Dashboard", path: "demo/example-dashboard"},
+        {name: "Report", path: "demo/example-report"},
       ]
     }
   ],
