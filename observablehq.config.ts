@@ -4,6 +4,7 @@ export default {
   pages: [
     {
       name: "Framework demo pages",
+      open: false,
       pages: [
         {name: "Index", path: "/index-demo"},
         {name: "Dashboard", path: "/example-dashboard"},
