@@ -2,7 +2,6 @@
 export default {
   title: " Cook w/ Code Restaurant",
   pages: [
-    {name: "Report (root)", path: "example-report"},
     {
       name: "Framework demo pages",
       open: false,
