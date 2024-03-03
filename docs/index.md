@@ -29,7 +29,7 @@ toc: false
 .hero h2 {
   margin: 0;
   max-width: 34em;
-  font-size: 20px;
+  font-size: 40px;
   font-style: initial;
   font-weight: 500;
   line-height: 1.5;
@@ -46,6 +46,7 @@ toc: false
 
 <div class="hero">
   <h1>Let's get cooking</h1>
+  <h2>🍓 🍊 👩🏾‍🍳 🥐 🍳 👩🏼‍🍳 🥑 🥬 🧑🏻‍🍳 🥗 🥘 🧑🏿‍🍳 🍪 🍰</h2>
 </div>
 
 # Welcome
