@@ -28,6 +28,7 @@ export default {
     </div>
   </div>
   `,
+  search: true,
 
   // Some additional configuration options and their defaults:
   // header: "", // what to show in the header (HTML)
