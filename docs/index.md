@@ -45,7 +45,7 @@ toc: false
 </style>
 
 <div class="hero">
-  <h1>Let's get cooking</h1>
+  <h1>Let's get cooking!</h1>
   <h2>🍓 🍊 👩🏾‍🍳 🥐 🍳 👩🏼‍🍳 🥑 🥬 🧑🏻‍🍳 🥗 🥘 🧑🏿‍🍳 🍪 🍰</h2>
 </div>
 
@@ -56,3 +56,5 @@ This is a place where I'm learning and perfecting data my visualization skills, 
 I'm so happy you're here. 
 
 Zach
+
+<div class="note" label="Soft Opening (2024-03-03) 🪚">I'm still learning about Framework. The restaurant is <b>open</b>, but <b>subject to change</b>. Thank you for your patronage. 🙂</div>
