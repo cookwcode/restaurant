@@ -1,5 +1,6 @@
 ---
 title: Demo home page
+toc: false
 ---
 
 <style>
@@ -43,6 +44,23 @@ title: Demo home page
 }
 
 </style>
+
+## Demo Pages
+
+These are some demo pages that Observable provides to get started:
+
+<div class="grid grid-cols-4">
+  <div class="card">
+    There's an <a href="example-report">example report</a>, showing a brief history of space exploration. More text-based, with an integrated chart.
+  </div>
+  <div class="card">
+    For a more data-focused use-case, there's an <a href="example-dashboard">example dashboard</a> on rocket launches. 
+  </div>
+</div>
+
+Below is the template provided by Observable
+
+---
 
 <div class="hero">
   <h1>Hello, Observable Framework</h1>
