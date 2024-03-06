@@ -47,7 +47,7 @@ toc: false
 
 ## Demo Pages
 
-These are some demo pages that Observable provides to get started:
+These are the boilerplate pages provided when creating a new project with Observable Framework. There are some demo pages you can use to get started:
 
 <div class="grid grid-cols-4">
   <div class="card">

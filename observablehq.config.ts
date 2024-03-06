@@ -3,7 +3,7 @@ export default {
   title: " Cook w/ Code Restaurant",
   pages: [
     // {
-    //   name: "Framework demo pages",
+    //   name: "Framework demo",
     //   open: false,
     //   pages: [
     //     {name: "Index", path: "demo/index"},
