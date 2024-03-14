@@ -1,4 +1,23 @@
 // See https://observablehq.com/framework/config for documentation.
+import {version as FRAMEWORK_VERSION} from "@observablehq/framework/package.json";
+
+const timestamp = [
+  new Date().toLocaleString("en-US", {
+    timeZone: "America/Los_Angeles",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    weekday: "short"
+  }),
+  "PT" // pacific time zone
+].join(" ")
+const date = timestamp.split(",")[1]
+const FOOTER_OBSERVABLE = `
+<p>Deployed on <a title="${timestamp}, Framework v${FRAMEWORK_VERSION}">${date}</a></p>`;
+
 export default {
   title: " Cook w/ Code Restaurant",
   pages: [
@@ -13,6 +32,12 @@ export default {
     // },
   ],
   theme: ["light", "alt"],
+  search: true,
+  toc: true, // whether to show the table of contents
+  pager: true, // whether to show previous & next links in the footer
+  root: "docs", // path to the source root for preview
+  output: "dist", // path to the output root for build
+  // what to show in the header (HTML)
   header: `
   <div style="display: flex; align-items: center; gap: 0.5rem; height: 2.2rem; margin: -1.5rem -2rem 2rem -2rem; padding: 0.5rem 2rem; border-bottom: solid 1px var(--theme-foreground-faintest); font: 500 16px var(--sans-serif);">
     <span style="display: flex; align-items: center;">
@@ -28,13 +53,5 @@ export default {
     </div>
   </div>
   `,
-  search: true,
-
-  // Some additional configuration options and their defaults:
-  // header: "", // what to show in the header (HTML)
-  // footer: "Built with Observable.", // what to show in the footer (HTML)
-  // toc: true, // whether to show the table of contents
-  // pager: true, // whether to show previous & next links in the footer
-  // root: "docs", // path to the source root for preview
-  // output: "dist", // path to the output root for build
+  footer: FOOTER_OBSERVABLE, // what to show in the footer (HTML)
 };
