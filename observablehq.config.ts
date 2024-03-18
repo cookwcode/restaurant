@@ -21,15 +21,15 @@ const FOOTER_OBSERVABLE = `
 export default {
   title: " Cook w/ Code Restaurant",
   pages: [
-    // {
-    //   name: "Framework demo",
-    //   open: false,
-    //   pages: [
-    //     {name: "Index", path: "demo/index"},
-    //     {name: "Dashboard", path: "demo/example-dashboard"},
-    //     {name: "Report", path: "demo/example-report"},
-    //   ]
-    // },
+    {
+      name: "Framework demo",
+      open: false,
+      pages: [
+        {name: "Index", path: "demo/index"},
+        {name: "Dashboard", path: "demo/example-dashboard"},
+        {name: "Report", path: "demo/example-report"},
+      ]
+    },
   ],
   theme: ["light", "alt"],
   search: true,
